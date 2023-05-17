@@ -5,6 +5,7 @@ const errorMessage = document.getElementById('errorMessage');
 //querySelector =  procura o primeiro elemento HTML que corresponda ao seletor fornecido
 const form = document.querySelector('form');
 
+//Essa linha adiciona um ouvinte de eventos ao formulário. Ele aguarda o evento de envio (submit) do formulário e, quando esse evento ocorrer, executa a função.
 form.addEventListener("submit", (e) => {
     //Aqui, é criada uma matriz vazia chamada errors. Essa matriz será usada para armazenar mensagens de erro, se houver algum problema com os valores dos campos do formulário.
     const errors = [];
